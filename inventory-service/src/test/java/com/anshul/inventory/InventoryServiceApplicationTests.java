@@ -1,10 +1,10 @@
-package com.anshul.eurekadiscovery;
+package com.anshul.inventory;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EurekaDiscoveryApplicationTests {
+class InventoryServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

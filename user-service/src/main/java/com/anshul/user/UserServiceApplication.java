@@ -1,4 +1,4 @@
-package com.anshul.eurekadiscovery;
+package com.anshul.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,8 +8,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
-public class InventoryServiceApplication {
+public class UserServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(InventoryServiceApplication.class, args);
+        SpringApplication.run(UserServiceApplication.class, args);
     }
 }
